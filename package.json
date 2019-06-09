@@ -3,7 +3,6 @@
   "version": "0.1.15",
   "description": "A collection of scripts for every day usage",
   "main": "src/index.js",
-  "bin": "dist-src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Noviel/everyday.git"
@@ -29,7 +28,7 @@
       [
         "@pika/plugin-simple-bin",
         {
-          "bin": "node scripts/add-shebang.js pkg/dist-src/index.js"
+          "bin": "everyday"
         }
       ]
     ]
