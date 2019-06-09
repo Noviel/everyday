@@ -1,3 +1,3 @@
-import { createModel } from './lib'
+import { createModel } from "./lib";
 
-console.log(`Hello world! Check: ${createModel(1).data}`);
+export default () => console.log(`Hello world! Check: ${createModel(1).data}`);
