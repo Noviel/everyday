@@ -26,7 +26,7 @@
         "@pika/plugin-build-web"
       ],
       [
-        "@pika/plugin-simple-bin",
+        "./scripts/simple-cli.js",
         {
           "bin": "everyday"
         }
@@ -42,6 +42,7 @@
     "@pika/plugin-simple-bin": "^0.4.0",
     "@pika/plugin-standard-pkg": "^0.4.0",
     "@pika/plugin-ts-standard-pkg": "^0.4.0",
+    "@pika/types": "^0.4.0",
     "typescript": "^3.5.1"
   }
 }
