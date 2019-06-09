@@ -52,14 +52,13 @@
     }
   },
   "scripts": {
-    "release": "pack build &&  && git add . && git commit -m \"Build pkg\" && pack publish"
+    "release": "pack publish"
   },
   "devDependencies": {
     "@pika/plugin-build-node": "^0.4.0",
     "@pika/plugin-build-web": "^0.4.0",
     "@pika/plugin-simple-bin": "^0.4.0",
     "@pika/plugin-standard-pkg": "^0.4.0",
-    "@pika/plugin-ts-standard-pkg": "^0.4.0",
     "@pika/types": "^0.4.0",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
