@@ -25,15 +25,17 @@
       ],
       [
         "@pika/plugin-build-web"
-      ]
+      ],
+      ["@pika/plugin-simple-bin", {"bin": "node scripts/add-shebang.js pkg/dist-src/index.js"}]
     ]
   },
   "scripts": {
-    "release": "pack build && node scripts/add-shebang.js pkg/dist-src/index.js && git add . && git commit -m \"Build pkg\" && pack publish"
+    "release": "pack build &&  && git add . && git commit -m \"Build pkg\" && pack publish"
   },
   "devDependencies": {
     "@pika/plugin-build-node": "^0.4.0",
     "@pika/plugin-build-web": "^0.4.0",
+    "@pika/plugin-simple-bin": "^0.4.0",
     "@pika/plugin-standard-pkg": "^0.4.0",
     "@pika/plugin-ts-standard-pkg": "^0.4.0",
     "typescript": "^3.5.1"
