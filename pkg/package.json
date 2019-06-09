@@ -1,7 +1,7 @@
 {
   "name": "@snov/everyday",
   "description": "A collection of scripts for every day usage",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "files": [
     "dist-*/",
