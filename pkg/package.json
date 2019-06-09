@@ -1,7 +1,7 @@
 {
   "name": "@snov/everyday",
   "description": "A collection of scripts for every day usage",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "license": "MIT",
   "bin": {
     "everyday": "dist-src/index.js"
