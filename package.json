@@ -35,20 +35,20 @@
   },
   "lint-staged": {
     "linters": {
-        "*.{js,jsx,ts,tsx}": [
-            "eslint --fix",
-            "prettier --write",
-            "git add"
-        ]
+      "*.{js,jsx,ts,tsx}": [
+        "eslint --fix",
+        "prettier --write",
+        "git add"
+      ]
     },
     "ignore": [
-        "pkg/**.*",
-        "scripts/**.*"
+      "pkg/**.*",
+      "scripts/**.*"
     ]
   },
   "husky": {
     "hooks": {
-        "pre-commit": "npm run lint-staged"
+      "pre-commit": "npm run lint-staged"
     }
   },
   "scripts": {
@@ -69,6 +69,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^2.4.0",
     "lint-staged": "^8.2.0",
+    "prettier": "^1.18.2",
     "typescript": "^3.5.1"
   }
 }
