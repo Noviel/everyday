@@ -9,3 +9,7 @@ npm i -g @snov/everyday
 ```sh
 everyday
 ```
+
+# Details
+
+This project was built and published with `@pika/pack`.
