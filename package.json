@@ -3,9 +3,7 @@
   "version": "0.1.6",
   "description": "A collection of scripts for every day usage",
   "main": "src/index.js",
-  "bin": {
-    "everyday": "dist-src/index.js"
-  },
+  "bin": "dist-src/index.js",
   "repository": "git@github.com:Noviel/everyday.git",
   "author": "\"Alexander \"Snov\" Semenchenko <snov.contact@gmail.com>\"",
   "license": "MIT",
