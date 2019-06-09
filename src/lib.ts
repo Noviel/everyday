@@ -3,7 +3,7 @@ interface Model {
   data: string;
 }
 
-export const createModel = (id): Model => {
+export const createModel = (id: number): Model => {
   return {
     id,
     data: "ok"
