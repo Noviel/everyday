@@ -1,6 +1,6 @@
 {
   "name": "@snov/everyday",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A collection of scripts for every day usage",
   "main": "src/index.js",
   "repository": "git@github.com:Noviel/everyday.git",
