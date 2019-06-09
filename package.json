@@ -4,26 +4,33 @@
   "description": "A collection of scripts for every day usage",
   "main": "src/index.js",
   "bin": "dist-src/index.js",
-  "repository": "git@github.com:Noviel/everyday.git",
+  "repository": {
+    "type": "git",
+    "https://github.com/Noviel/everyday.git"
+  },
   "author": "\"Alexander \"Snov\" Semenchenko <snov.contact@gmail.com>\"",
   "license": "MIT",
   "@pika/pack": {
     "pipeline": [
       [
-        "@pika/plugin-standard-pkg",
+        "@pika/plugin-ts-standard-pkg",
         {
           "exclude": [
             "__tests__/**/*"
           ]
         }
-      ]
+      ],
+      ["@pika/plugin-build-node"],
+      ["@pika/plugin-build-web"]
     ]
   },
   "scripts": {
     "release": "pack build && git add . && git commit -m \"Build pkg\" && pack publish"
   },
   "devDependencies": {
+    "@pika/plugin-build-node": "^0.4.0",
     "@pika/plugin-build-web": "^0.4.0",
-    "@pika/plugin-standard-pkg": "^0.4.0"
+    "@pika/plugin-standard-pkg": "^0.4.0",
+    "@pika/plugin-ts-standard-pkg": "^0.4.0"
   }
 }
