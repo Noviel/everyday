@@ -12,4 +12,4 @@ everyday
 
 # Details
 
-This project was built and published with `@pika/pack`.
+The project was built and published with `@pika/pack`.
