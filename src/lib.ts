@@ -6,6 +6,6 @@ interface Model {
 export const createModel = (id: number): Model => {
   return {
     id,
-    data: "ok"
+    data: 'ok',
   };
 };
