@@ -1,6 +1,6 @@
 {
   "name": "@snov/everyday",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "A collection of scripts for every day usage",
   "main": "src/index.js",
   "bin": "dist-src/index.js",
@@ -26,7 +26,12 @@
       [
         "@pika/plugin-build-web"
       ],
-      ["@pika/plugin-simple-bin", {"bin": "node scripts/add-shebang.js pkg/dist-src/index.js"}]
+      [
+        "@pika/plugin-simple-bin",
+        {
+          "bin": "node scripts/add-shebang.js pkg/dist-src/index.js"
+        }
+      ]
     ]
   },
   "scripts": {
