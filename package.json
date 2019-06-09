@@ -45,8 +45,14 @@
         "pkg/**.*",
         "scripts/**.*"
     ]
-},
+  },
+  "husky": {
+    "hooks": {
+        "pre-commit": "npm run lint-staged"
+    }
+  },
   "scripts": {
+    "lint-staged": "./node_modules/.bin/lint-staged",
     "release": "pack build &&  && git add . && git commit -m \"Build pkg\" && pack publish"
   },
   "devDependencies": {
