@@ -13,3 +13,11 @@ everyday
 # Details
 
 The project was built and published with `@pika/pack`.
+
+# Development
+
+## Release
+
+```sh
+npm run release
+```
