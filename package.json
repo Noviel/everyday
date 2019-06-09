@@ -19,7 +19,7 @@
     ]
   },
   "scripts": {
-    "release": "pack build && pack publish && cd pkg && npm publish --access public"
+    "release": "pack build && pack publish"
   },
   "devDependencies": {
     "@pika/plugin-build-web": "^0.4.0",

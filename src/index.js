@@ -1,1 +1,1 @@
-console.log(`Hello world`);
+console.log(`Hello world! Created with @pika/pack.`);
