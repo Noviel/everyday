@@ -61,6 +61,7 @@
     "@pika/plugin-simple-bin": "^0.4.0",
     "@pika/plugin-standard-pkg": "^0.4.0",
     "@pika/types": "^0.4.0",
+    "@types/node": "^12.0.7",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
     "eslint": "^5.16.0",
