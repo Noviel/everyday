@@ -1,7 +1,22 @@
-import { createModel } from './lib';
+import { addLint } from './add-lint';
 
-const run = () => {
-  console.log(`Hello world! Check: ${createModel(1).data}`);
+const run = (ctx: any) => {
+  if (ctx[2] === `add-lint`) {
+    addLint(
+      {
+        project: {
+          name: 'unknown',
+        },
+        rootPath: process.cwd(),
+      },
+      {
+        prettier: true,
+        react: false,
+        lintStaged: true,
+        typescript: true,
+      }
+    );
+  }
 };
 
 export { run };
